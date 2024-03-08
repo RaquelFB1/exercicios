@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    
+    <h1 class="tituloprincipal central">Hotel Lugoli</h1>      
+    <div class="caixa central">
+      Bem Vindo
+    </div>
+    <form method="POST" action="teste.jsp">
+       Nome: <input type="text" name="nome" > <br>
+       Email: <input type="email" name="email"> <br>
+         Quantidade de hospedes:
+        <input type="radio" name="hospedes" value="1"> 1 hospede
+        <input type="radio" name="hospedes" value="2"> 2 hospedes
+        <input type="radio" name="hospedes" value="3"> 3 hospedes
+        <br>
+        Destino: <select name="destino"> 
+           <option>São Paulo</option>
+           <option>Rio de Janeiro</option>
+           <option>Porto Alegre</option>
+        </select>
+        Suites: <select name="suite"> 
+           <option>Standard</option>
+           <option>Premium</option>
+           <option>Master</option>
+        </select>
+         <br>
+         Standard: <a class="imagem imagem1" href="tabela.html"></a>
+         Premium:  <a class="imagem imagem2" href="tabela.html"></a>
+         Master:  <a class="imagem imagem3" href="tabela.html"></a>
+
+        Acomodações basicas:
+        <ul class="minhalista">
+          <li> Ar-condicionado</li>
+          <li>TV</li>
+          <li>Frigobar</li>
+          <li>Secador</li>
+          <li>WI-FI</li>
+        </ul>
+        <br>
+        Serviços Adicionais:
+        <input type="checkbox" name="Café" value="sim"> Café da manhã incluso
+        <input type="checkbox" name="Serviço" value="sim"> Serviço de quarto
+        <br>
+        Check in <input type="date" name="Check in"> 
+        Check out <input type="date" name="Check out">
+        <br>
+        Comentarios:<br>
+        <textarea name="mensagem" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+    <script src="formulario.js"></script>
+</body>
+</html>

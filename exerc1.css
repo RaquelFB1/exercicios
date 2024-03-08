@@ -1,0 +1,26 @@
+
+
+
+.quadrado{
+    border:3px solid black;
+    width:100px;
+    height:100px;
+    margin:10px;
+    background-color:greenyellow;
+    position:absolute;
+
+}
+
+.quadrado2{
+    right: 0px;
+    bottom: 0px;
+
+}
+.quadrado3{
+    left: 0px;
+    bottom: 0px;
+}
+.quadrado4{
+    right: 0px;
+    top: 0px;
+}

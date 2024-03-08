@@ -1,0 +1,15 @@
+.alternada{
+ list-style:upper-alpha;
+ font-size:30px;
+ color:black;
+ width:fit-content;
+}
+.alternada li:nth-child(1){
+    background-color:blueviolet;
+}
+.alternada li:nth-child(even){
+    background-color:aqua;
+}
+.alternada li:hover{
+    font-weight:bolder;
+}

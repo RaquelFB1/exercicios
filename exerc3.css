@@ -1,0 +1,30 @@
+#campo1{
+    border-radius: 10px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 50px;
+    height: 5px;
+  }
+  #campo2{
+    border-radius: 10px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 50px;
+    height: 5px;
+  }
+  #operacao{
+    border-radius:10px;
+    border:2px solid #73AD21;
+    padding:10px;
+    width:100px;
+    height:4px;
+  }
+
+  .problema{
+    background-color: red;
+    color:black;
+    padding:5px;
+    width:fit-content;
+    margin:5px;
+  }
+

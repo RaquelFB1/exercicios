@@ -1,0 +1,31 @@
+h1{color:aquamarine;font-size: 24px}
+        .tituloprincipal{color:black;font-size: 30px}
+        .central{text-align:center}
+        
+
+.minhalista li{color:brown}
+        
+body{
+    background-image:url(hotel2.jpg)
+}
+.caixa{
+   font-size:50px;
+   margin:10px;
+   border:4px solid black;
+   padding:20px;
+
+}
+.imagem{
+    background:url(suitestandard.jpg)no-repeat;
+    width:200px;
+    height:200px;
+    display:block;
+    background-size:contain;
+}
+.imagem2{
+    background:url(premium.jpg)no-repeat;
+    width:200px;
+    height:200px;
+    display:block;
+    background-size:contain;
+}
